@@ -131,6 +131,7 @@ export default function Home() {
                 <div className={styles.formRow}>
                   <input
                     type="email"
+                    className={styles.inputField}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email"

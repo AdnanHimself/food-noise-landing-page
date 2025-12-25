@@ -126,8 +126,7 @@
 }
 
 /* Input */
-input[type="email"],
-input[type="text"] {
+.inputField {
   padding: var(--space-sm) var(--space-md);
   font-size: var(--font-size-base);
   font-family: var(--font-family);
@@ -141,11 +140,11 @@ input[type="text"] {
   box-shadow: var(--shadow-input); /* Tactile depth */
 }
 
-input::placeholder {
+.inputField::placeholder {
   color: var(--text-tertiary);
 }
 
-input:focus {
+.inputField:focus {
   border-color: var(--primary);
   box-shadow: 0 0 0 4px var(--primary-light), var(--shadow-input);
   transform: translateY(-1px);
