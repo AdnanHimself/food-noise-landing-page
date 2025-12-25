@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ellua – Quiet the Food Noise",
-  description: "Your compassionate companion for emotional eating. Join the waitlist for early access.",
-  keywords: ["emotional eating", "binge eating", "food noise", "self-awareness", "companion app"],
+  title: "Ellua - Quiet the Food Noise",
+  description: "A compassionate companion for emotional eating. Understand your patterns, break the cycle, and find calm. No judgment, just support.",
+  keywords: ["emotional eating", "binge eating", "food noise", "recovery", "self-care", "mindful eating"],
   openGraph: {
-    title: "Ellua – Quiet the Food Noise",
-    description: "Your compassionate companion for emotional eating. No judgment. No diets. Just understanding.",
+    title: "Ellua - Quiet the Food Noise",
+    description: "A compassionate companion for emotional eating. Understand your patterns, break the cycle, and find calm.",
     type: "website",
   },
 };

@@ -4,24 +4,28 @@
    ============================================ */
 
 /* CSS Variables - Ellua Light Theme */
+/* CSS Variables - Ellua Light Theme */
 :root {
   /* Core Colors */
   --background: #EFEDD2;
   --surface: #E9E7CC;
   --surface-hover: #DDD9B8;
-  --text: #000000;
-  --text-secondary: rgba(0, 0, 0, 0.6);
-  --text-tertiary: rgba(0, 0, 0, 0.4);
+  --surface-glass: rgba(255, 255, 255, 0.6); /* New for glassmorphism */
+  
+  /* Text - Premium Contrast */
+  --text: #1A1A1A; /* Softer than pure black */
+  --text-secondary: rgba(26, 26, 26, 0.65);
+  --text-tertiary: rgba(26, 26, 26, 0.45);
   
   /* Brand */
   --primary: #920D28;
   --primary-hover: #7a0b22;
-  --primary-light: rgba(146, 13, 40, 0.1);
-  --cream: #F5F5DC;
+  --primary-light: rgba(146, 13, 40, 0.08); /* More subtle */
+  --cream: #F9F8F2; /* Cleaner cream */
   --white: #FFFFFF;
   
   /* Semantic */
-  --success: #22C55E;
+  --success: #15803d; /* Deeper green */
   
   /* Spacing */
   --space-xs: 0.5rem;
@@ -29,8 +33,8 @@
   --space-md: 1.5rem;
   --space-lg: 2rem;
   --space-xl: 3rem;
-  --space-2xl: 4rem;
-  --space-3xl: 6rem;
+  --space-2xl: 4.5rem; /* Increased for breathability */
+  --space-3xl: 7.5rem;
   
   /* Typography */
   --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -39,21 +43,22 @@
   --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem;
   --font-size-2xl: 1.5rem;
-  --font-size-3xl: 2rem;
-  --font-size-4xl: 2.5rem;
-  --font-size-5xl: 3rem;
+  --font-size-3xl: 2.25rem;
+  --font-size-4xl: 3rem;
+  --font-size-5xl: 3.75rem; /* Larger hero */
   
   /* Border Radius */
   --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
   --radius-full: 9999px;
   
-  /* Shadows - Cozy/soft */
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.1);
+  /* Shadows - Premium/Diffuse */
+  --shadow-sm: 0 2px 4px rgba(146, 13, 40, 0.03);
+  --shadow-md: 0 8px 16px -4px rgba(146, 13, 40, 0.08);
+  --shadow-lg: 0 24px 48px -12px rgba(146, 13, 40, 0.12);
+  --shadow-input: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 /* Reset */

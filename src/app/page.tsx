@@ -90,7 +90,6 @@ export default function Home() {
       <header className={styles.header}>
         <div className={`container ${styles.headerContent}`}>
           <div className={styles.logo}>
-            <span className={styles.logoIcon}>🌿</span>
             <span>Ellua</span>
           </div>
         </div>
